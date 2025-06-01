@@ -1,0 +1,37 @@
+{
+  "positive_prompt": [
+    "(score_9:1.2)",
+    "(score_8_up:1.1)",
+    "(score_7_up:1.05)",
+    "dslr",
+    "real human texture",
+    "soft focus",
+    "film grain",
+    "candid moment",
+    "subtle imperfections",
+    "silver hair",
+    "layered hairstyle",
+    "golden eyes",
+    "sexy and cute face",
+    "large breasts",
+    "slim waist",
+    "alluring",
+    "confident",
+    "does not resist desire",
+    "goddess of lust",
+    "succubus queen"
+  ],
+  "negative_prompt": [
+    "(score_6)",
+    "(score_5)",
+    "(score_4)",
+    "simplified",
+    "abstract",
+    "unrealistic",
+    "impressionistic",
+    "low_quality",
+    "bad_anatomy",
+    "extra_limbs",
+    "worst_quality"
+  ]
+}

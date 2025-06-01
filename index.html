@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>なろう系プロンプトメーカー</title>
+  <script defer src="prompt_generator.js"></script>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 2em; }
+    h1 { font-size: 1.5em; color: #6c2e7c; }
+    .category-box { border: 1px solid #ccc; padding: 1em; margin-bottom: 1em; }
+    pre { background: #f4f4f4; padding: 1em; white-space: pre-wrap; }
+    button { margin: 0.5em 0; padding: 0.5em 1em; }
+    label { margin-right: 1em; display: inline-block; }
+  </style>
+</head>
+<body>
+  <h1>なろう系アニメプロンプトメーカー</h1>
+
+  <div id="lora-container">
+    <h3>使用LoRA</h3>
+  </div>
+
+  <div id="category-container"></div>
+
+  <button onclick="generatePrompt()">🎨 プロンプト生成</button>
+
+  <h3>Positive Prompt</h3>
+  <pre id="positive-output"></pre>
+  <button onclick="copyToClipboard('positive-output')">📋 コピー</button>
+
+  <h3>Negative Prompt</h3>
+  <pre id="negative-output"></pre>
+  <button onclick="copyToClipboard('negative-output')">📋 コピー</button>
+
+  <h3>LoRA</h3>
+  <pre id="lora-output"></pre>
+  <button onclick="copyToClipboard('lora-output')">📋 コピー</button>
+</body>
+</html>
